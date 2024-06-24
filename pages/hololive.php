@@ -48,6 +48,33 @@
   "https://www.youtube.com/@HimemoriLuna"
   );
 
+  // $multiHandle = curl_multi_init();
+  // $curlHandles = [];
+  // $responses = [];
+
+  // foreach ($memberLinks as $i => $url) {
+  //   $curlHandles[$i] = curl_init($memberLinks);
+  //   curl_setopt($curlHandles[$i], CURLOPT_RETURNTRANSFER, true);
+  //   curl_multi_add_handle($multiHandle, $curlHandles[$i]);
+  // }
+
+  // $running = null;
+  // do {
+  //   curl_multi_exec($multiHandle, $running);
+  //   curl_multi_select($multiHandle);
+  // } while ($running > 0);
+  // foreach ($curlHandles as $i => $curlHandles) {
+  //   $responses[$i] = curl_multi_getcontent($curlHandles);
+  //   curl_multi_remove_handle($multiHandle, $curlHandles);
+  //   curl_close($curlHandles);
+  // }
+
+  // curl_multi_close($multiHandle);
+
+  // foreach ($responses as $i => $response) {
+  //   echo($response);
+  // }
+
   function live($url) {
     $searchfor = '"text":" watching';
     $content = file_get_contents($url);

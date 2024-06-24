@@ -35,7 +35,7 @@
           <div class = "cardData">
             <span class = "cardDescription"> Anime & Manga </span>
             <h2 class = "cardTitle"> Influential </h2>
-            <a href = "#" class = "cardButton"> Read More </a> 
+            <a href = "/phpWebsite/pages/japan.php" class = "cardButton"> Read More </a> 
           </div>
         </article>
 
